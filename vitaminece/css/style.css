@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../font/Gotham-Bold.eot.');
+    src: url('../font/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/Gotham-Bold.woff') format('woff'),
+         url('../font/Gotham-Bold.ttf') format('truetype'),
+         url('../font/Gotham-Bold.svg#Gotham-bold') format('svg');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../font/GothamBook.eot');
+    src: url('../font/GothamBook.eot?#iefix') format('embedded-opentype'),
+         url('../font/GothamBook.woff') format('woff'),
+         url('../font/GothamBook.ttf') format('truetype'),
+         url('../font/GothamBook.svg#Gotham-book') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6{margin: 0; font-family: 'Gotham'; font-weight: bold;}
+.contenedor{height: 100vh; width: 100%; position: relative;}
+.logo{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 340px;
+  background-image: url(../img/logo.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  margin-top: 80px;
+  }
+.texto{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 22px;
+}
+.texto p{ font-size: 1.5em; font-family: 'Gotham'; font-weight: normal; color: #303030;}
+.texto h1{font-size: 2em; color: #eb6c03;}
+.imagen{
+  width: 90%;
+  height: 300px;
+  max-width: 550px;
+  margin: 0 auto;
+  background-image: url(../img/naranjas.jpg);
+  -webkit-background-size: 90%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 70px;
+}
+
+@media screen and (max-width:500px){
+
+  .imagen{
+    margin-top: 00px;
+        -webkit-background-size: 100%;
+        background-size: 100%;
+      height: 300px;}
+
+  .logo{
+    max-width: 300px;
+    -webkit-background-size: 90%;
+    background-size: 90%;
+    height: 100px;
+    margin-top: 70px;}
+    .texto{margin-top: 20px;}
+    .texto p{ font-size: 1.2em; }
+    .texto h1{font-size: 1.5em; }
+
+      }
+
+
+      @media screen and (max-width:320px){
+
+        .imagen{
+          margin-top: 00px;
+              -webkit-background-size: 100%;
+              background-size: 100%;
+            height: 230px;}
+            .logo{margin-top: 40px;}
+
+      }
